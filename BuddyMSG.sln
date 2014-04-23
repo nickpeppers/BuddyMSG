@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuddyMSG", "BuddyMSG\BuddyMSG.csproj", "{D3030C37-3785-4BFB-A9EB-A2D88CEE979A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3030C37-3785-4BFB-A9EB-A2D88CEE979A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3030C37-3785-4BFB-A9EB-A2D88CEE979A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3030C37-3785-4BFB-A9EB-A2D88CEE979A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3030C37-3785-4BFB-A9EB-A2D88CEE979A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BuddyMSG\BuddyMSG.csproj
+	EndGlobalSection
+EndGlobal

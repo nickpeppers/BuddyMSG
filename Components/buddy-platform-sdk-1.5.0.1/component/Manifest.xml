@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="buddy-platform-sdk">
+  <name>Buddy Platform SDK</name>
+  <publisher>Buddy Platform, Inc.</publisher>
+  <publisher-url>http://buddy.com</publisher-url>
+  <version>1.5.0.1</version>
+  <summary>Use Buddy backend as a service APIs.</summary>
+  <samples>
+    <sample id="Buddy.iOS.Sample">
+      <name>Buddy iOS Sample.</name>
+      <summary>Simple app calling Buddy service.</summary>
+    </sample>
+    <sample id="Buddy.Android.Sample">
+      <name>Buddy Android Sample.</name>
+      <summary>Simple app calling Buddy service.</summary>
+    </sample>
+  </samples>
+</component>
