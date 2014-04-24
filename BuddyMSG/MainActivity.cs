@@ -27,7 +27,7 @@ namespace BuddyMSG
 
             createAccountButton.Click += (sender, e) => 
             {
-                //StartActivity(typeof());
+                StartActivity(typeof(CreateAccountActivity));
             };
 		}
 	}
