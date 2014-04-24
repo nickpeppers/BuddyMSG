@@ -78,9 +78,6 @@ namespace BuddyMSG
 			// aapt resource value: 0x7f060003
 			public const int CreatePassword2EditText = 2131099651;
 			
-			// aapt resource value: 0x7f060005
-			public const int EmailEditText = 2131099653;
-			
 			// aapt resource value: 0x7f060007
 			public const int LoginButton = 2131099655;
 			
@@ -89,6 +86,9 @@ namespace BuddyMSG
 			
 			// aapt resource value: 0x7f060008
 			public const int MainLoginButton = 2131099656;
+			
+			// aapt resource value: 0x7f060005
+			public const int NameEditText = 2131099653;
 			
 			// aapt resource value: 0x7f060006
 			public const int PasswordEditText = 2131099654;
@@ -110,13 +110,16 @@ namespace BuddyMSG
 			public const int CreateAccountLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int LoginLayout = 2130903041;
+			public const int HomeLayout = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int MainLayout = 2130903042;
+			public const int LoginLayout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int monoandroidsplash = 2130903043;
+			public const int MainLayout = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int monoandroidsplash = 2130903044;
 			
 			static Layout()
 			{

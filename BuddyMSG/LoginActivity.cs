@@ -12,16 +12,14 @@ using Android.Widget;
 namespace BuddyMSG
 {
     [Activity(Label = "LoginActivity")]			
-    public class LoginActivity : Activity
+    public class LoginActivity : BaseActivity<LoginViewModel>
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.LoginLayout);
 
-            var buddyClient = new Buddy.BuddyClient(BuddyService.BuddyApplicationName, BuddyService.BuddyApplicationPassword);
-
-            var emailEditText = FindViewById<EditText>(Resource.Id.EmailEditText);
+            var nameEditText = FindViewById<EditText>(Resource.Id.NameEditText);
             var passwordEditText = FindViewById<EditText>(Resource.Id.PasswordEditText);
 
             var loginButton = FindViewById<Button>(Resource.Id.LoginButton);
@@ -29,25 +27,8 @@ namespace BuddyMSG
             {
                 try
                 {
-                    var errorDialog = new AlertDialog.Builder(this).SetTitle("Oops!").SetMessage("The text you entered is not a valid email address").SetPositiveButton("Okay", (sender1, e1) =>
-                    {
-
-                    }).Create();
-
-                    if(string.IsNullOrEmpty(emailEditText.Text))
-                    {
-                        errorDialog.Show();
-                        return;
-                    }
-                    try
-                    {
-                        new System.Net.Mail.MailAddress(emailEditText.Text);
-                    }
-                    catch
-                    {
-                        errorDialog.Show();
-                    }
-                    await buddyClient.LoginAsync(emailEditText.Text, passwordEditText.Text);
+                    await viewModel.Login(this, nameEditText.Text, passwordEditText.Text);
+                    //StartActivity(typeof());
                 }
                 catch (Exception exc)
                 {

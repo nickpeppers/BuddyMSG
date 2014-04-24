@@ -9,7 +9,7 @@ using Android.OS;
 namespace BuddyMSG
 {
 	[Activity (Label = "BuddyMSG", MainLauncher = true)]
-	public class MainActivity : Activity
+    public class MainActivity : BaseActivity<LoginViewModel>
 	{
 		protected override void OnCreate (Bundle bundle)
 		{

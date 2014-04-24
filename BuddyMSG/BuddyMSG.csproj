@@ -56,9 +56,17 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BuddyService.cs" />
     <Compile Include="LoginActivity.cs" />
     <Compile Include="CreateAccountActivity.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="Core\BaseViewModel.cs" />
+    <Compile Include="Core\ISettings.cs" />
+    <Compile Include="Core\IWebService.cs" />
+    <Compile Include="Core\LoginViewModel.cs" />
+    <Compile Include="Core\ServiceContainer.cs" />
+    <Compile Include="BaseActivity.cs" />
+    <Compile Include="Core\BuddyService.cs" />
+    <Compile Include="HomeActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -71,6 +79,7 @@
     <AndroidResource Include="Resources\layout\LoginLayout.axml" />
     <AndroidResource Include="Resources\layout\MainLayout.axml" />
     <AndroidResource Include="Resources\layout\CreateAccountLayout.axml" />
+    <AndroidResource Include="Resources\layout\HomeLayout.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -82,5 +91,8 @@
       <Version>4.5.11</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
   </ItemGroup>
 </Project>
