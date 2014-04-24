@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateNameEditText"
+        android:padding="3dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_margin="3dp"
+        android:singleLine="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateEmailEditText"
+        android:hint="Email"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:singleLine="true"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreatePassword1EditText"
+        android:padding="3dp"
+        android:hint="Password"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_margin="3dp"
+        android:singleLine="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreatePassword2EditText"
+        android:padding="3dp"
+        android:hint="Confirm Password"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_margin="3dp" />
+    <Button
+        android:text="Create Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateCreateAccountButton"
+        android:layout_margin="3dp" />
+</LinearLayout>

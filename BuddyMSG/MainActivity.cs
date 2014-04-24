@@ -15,17 +15,17 @@ namespace BuddyMSG
 		{
 			base.OnCreate (bundle);
 
-			SetContentView (Resource.Layout.Main);
+            SetContentView (Resource.Layout.MainLayout);
 
-            var loginButton = FindViewById<Button> (Resource.Id.LoginButton);
-            var createAccountButton = FindViewById<Button> (Resource.Id.CreateAccountButton);
+            var loginButton = FindViewById<Button> (Resource.Id.MainLoginButton);
+            var createAccountButton = FindViewById<Button> (Resource.Id.MainCreateAccountButton);
 
             loginButton.Click += (sender, e) =>
             {
-                //StartActivity(typeof());
+                StartActivity(typeof(LoginActivity));
 			};
 
-            createAccountButton.Click += async (sender, e) => 
+            createAccountButton.Click += (sender, e) => 
             {
                 //StartActivity(typeof());
             };
