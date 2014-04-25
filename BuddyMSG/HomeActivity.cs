@@ -14,10 +14,14 @@ namespace BuddyMSG
     [Activity(Label = "HomeActivity")]			
     public class HomeActivity : BaseActivity<LoginViewModel>
     {
-        protected override void OnCreate(Bundle bundle)
+        protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
+            IEnumerable<Buddy.Message> messages = await Buddy.MessagesTaskWrappers.GetReceivedAsync(viewModel.User.Messages);
+
+            var listView = FindViewById<ListView>(Resource.Id.HomeMessagesListView);
+            listView.Adapter = new HomeMessageAdapter(this, messages.ToList<Buddy.Message>(), viewModel.User);
         }
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="BaseActivity.cs" />
     <Compile Include="Core\BuddyService.cs" />
     <Compile Include="HomeActivity.cs" />
+    <Compile Include="HomeMessageAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -80,6 +81,7 @@
     <AndroidResource Include="Resources\layout\MainLayout.axml" />
     <AndroidResource Include="Resources\layout\CreateAccountLayout.axml" />
     <AndroidResource Include="Resources\layout\HomeLayout.axml" />
+    <AndroidResource Include="Resources\layout\HomeMessageAdapterLayout.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

@@ -79,19 +79,37 @@ namespace BuddyMSG
 			public const int CreatePassword2EditText = 2131099651;
 			
 			// aapt resource value: 0x7f060007
-			public const int LoginButton = 2131099655;
+			public const int HomeComposeButton = 2131099655;
 			
 			// aapt resource value: 0x7f060009
-			public const int MainCreateAccountButton = 2131099657;
+			public const int HomeFromTextView = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int HomeMessageTextView = 2131099658;
 			
 			// aapt resource value: 0x7f060008
-			public const int MainLoginButton = 2131099656;
-			
-			// aapt resource value: 0x7f060005
-			public const int NameEditText = 2131099653;
+			public const int HomeMessagesListView = 2131099656;
 			
 			// aapt resource value: 0x7f060006
-			public const int PasswordEditText = 2131099654;
+			public const int HomeSendToEditText = 2131099654;
+			
+			// aapt resource value: 0x7f06000d
+			public const int LoginButton = 2131099661;
+			
+			// aapt resource value: 0x7f06000f
+			public const int MainCreateAccountButton = 2131099663;
+			
+			// aapt resource value: 0x7f06000e
+			public const int MainLoginButton = 2131099662;
+			
+			// aapt resource value: 0x7f06000b
+			public const int NameEditText = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int PasswordEditText = 2131099660;
+			
+			// aapt resource value: 0x7f060005
+			public const int linearLayout1 = 2131099653;
 			
 			static Id()
 			{
@@ -113,13 +131,16 @@ namespace BuddyMSG
 			public const int HomeLayout = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int LoginLayout = 2130903042;
+			public const int HomeMessageAdapterLayout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int MainLayout = 2130903043;
+			public const int LoginLayout = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int monoandroidsplash = 2130903044;
+			public const int MainLayout = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int monoandroidsplash = 2130903045;
 			
 			static Layout()
 			{
