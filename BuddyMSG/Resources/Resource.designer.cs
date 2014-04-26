@@ -63,53 +63,62 @@ namespace BuddyMSG
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060004
-			public const int CreateCreateAccountButton = 2131099652;
-			
-			// aapt resource value: 0x7f060001
-			public const int CreateEmailEditText = 2131099649;
-			
-			// aapt resource value: 0x7f060000
-			public const int CreateNameEditText = 2131099648;
+			// aapt resource value: 0x7f060003
+			public const int ComposeMessageEditText = 2131099651;
 			
 			// aapt resource value: 0x7f060002
-			public const int CreatePassword1EditText = 2131099650;
+			public const int ComposeSendButton = 2131099650;
 			
-			// aapt resource value: 0x7f060003
-			public const int CreatePassword2EditText = 2131099651;
-			
-			// aapt resource value: 0x7f060007
-			public const int HomeComposeButton = 2131099655;
-			
-			// aapt resource value: 0x7f060009
-			public const int HomeFromTextView = 2131099657;
-			
-			// aapt resource value: 0x7f06000a
-			public const int HomeMessageTextView = 2131099658;
+			// aapt resource value: 0x7f060001
+			public const int ComposeToEditText = 2131099649;
 			
 			// aapt resource value: 0x7f060008
-			public const int HomeMessagesListView = 2131099656;
-			
-			// aapt resource value: 0x7f060006
-			public const int HomeSendToEditText = 2131099654;
-			
-			// aapt resource value: 0x7f06000d
-			public const int LoginButton = 2131099661;
-			
-			// aapt resource value: 0x7f06000f
-			public const int MainCreateAccountButton = 2131099663;
-			
-			// aapt resource value: 0x7f06000e
-			public const int MainLoginButton = 2131099662;
-			
-			// aapt resource value: 0x7f06000b
-			public const int NameEditText = 2131099659;
-			
-			// aapt resource value: 0x7f06000c
-			public const int PasswordEditText = 2131099660;
+			public const int CreateCreateAccountButton = 2131099656;
 			
 			// aapt resource value: 0x7f060005
-			public const int linearLayout1 = 2131099653;
+			public const int CreateEmailEditText = 2131099653;
+			
+			// aapt resource value: 0x7f060004
+			public const int CreateNameEditText = 2131099652;
+			
+			// aapt resource value: 0x7f060006
+			public const int CreatePassword1EditText = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int CreatePassword2EditText = 2131099655;
+			
+			// aapt resource value: 0x7f060009
+			public const int HomeComposeButton = 2131099657;
+			
+			// aapt resource value: 0x7f06000c
+			public const int HomeFromTextView = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int HomeMessageTextView = 2131099661;
+			
+			// aapt resource value: 0x7f06000b
+			public const int HomeMessagesListView = 2131099659;
+			
+			// aapt resource value: 0x7f06000a
+			public const int HomeRefreshButton = 2131099658;
+			
+			// aapt resource value: 0x7f060010
+			public const int LoginButton = 2131099664;
+			
+			// aapt resource value: 0x7f060012
+			public const int MainCreateAccountButton = 2131099666;
+			
+			// aapt resource value: 0x7f060011
+			public const int MainLoginButton = 2131099665;
+			
+			// aapt resource value: 0x7f06000e
+			public const int NameEditText = 2131099662;
+			
+			// aapt resource value: 0x7f06000f
+			public const int PasswordEditText = 2131099663;
+			
+			// aapt resource value: 0x7f060000
+			public const int linearLayout1 = 2131099648;
 			
 			static Id()
 			{
@@ -125,22 +134,25 @@ namespace BuddyMSG
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int CreateAccountLayout = 2130903040;
+			public const int ComposeMessageLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int HomeLayout = 2130903041;
+			public const int CreateAccountLayout = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int HomeMessageAdapterLayout = 2130903042;
+			public const int HomeLayout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int LoginLayout = 2130903043;
+			public const int HomeMessageAdapterLayout = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int MainLayout = 2130903044;
+			public const int LoginLayout = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int monoandroidsplash = 2130903045;
+			public const int MainLayout = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int monoandroidsplash = 2130903046;
 			
 			static Layout()
 			{

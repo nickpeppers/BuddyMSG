@@ -53,21 +53,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LoginActivity.cs" />
-    <Compile Include="CreateAccountActivity.cs" />
     <Compile Include="Application.cs" />
     <Compile Include="Core\BaseViewModel.cs" />
     <Compile Include="Core\ISettings.cs" />
     <Compile Include="Core\IWebService.cs" />
     <Compile Include="Core\LoginViewModel.cs" />
     <Compile Include="Core\ServiceContainer.cs" />
-    <Compile Include="BaseActivity.cs" />
     <Compile Include="Core\BuddyService.cs" />
-    <Compile Include="HomeActivity.cs" />
-    <Compile Include="HomeMessageAdapter.cs" />
+    <Compile Include="Adapters\HomeMessageAdapter.cs" />
+    <Compile Include="Activities\BaseActivity.cs" />
+    <Compile Include="Activities\CreateAccountActivity.cs" />
+    <Compile Include="Activities\HomeActivity.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\LoginActivity.cs" />
+    <Compile Include="Activities\ComposeMessageActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -82,6 +83,7 @@
     <AndroidResource Include="Resources\layout\CreateAccountLayout.axml" />
     <AndroidResource Include="Resources\layout\HomeLayout.axml" />
     <AndroidResource Include="Resources\layout\HomeMessageAdapterLayout.axml" />
+    <AndroidResource Include="Resources\layout\ComposeMessageLayout.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -96,5 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Activities\" />
   </ItemGroup>
 </Project>

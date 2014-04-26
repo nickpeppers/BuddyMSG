@@ -10,23 +10,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
-        <Button
-            android:text="Compose Message +"
+        <EditText
+            android:id="@+id/ComposeToEditText"
+            android:hint="To:"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:padding="3dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/HomeComposeButton"
             android:layout_weight="1" />
         <Button
-            android:text="Refresh"
+            android:text="Send"
+            android:id="@+id/ComposeSendButton"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/HomeRefreshButton" />
+            android:layout_height="match_parent" />
     </LinearLayout>
-    <ListView
-        android:minWidth="25px"
-        android:minHeight="25px"
+    <EditText
+        android:inputType="textMultiLine"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/HomeMessagesListView"
-        android:padding="3dp" />
+        android:layout_height="wrap_content"
+        android:id="@+id/ComposeMessageEditText"
+        android:hint="Message:" />
 </LinearLayout>

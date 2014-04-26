@@ -49,7 +49,7 @@ namespace BuddyMSG
             var fromUser = _user.FindUserAsync(_messages[position].FromUserID).Result;
 
             view.FindViewById<TextView> (Resource.Id.HomeFromTextView).Text = fromUser.Name;
-            view.FindViewById<TextView> (Resource.Id.HomeSendToEditText).Text = _messages[position].Text;
+            view.FindViewById<TextView> (Resource.Id.HomeMessageTextView).Text = _messages[position].Text;
             return view;
         }
 
