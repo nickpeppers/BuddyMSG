@@ -1,19 +1,34 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BuddyMSG\HomeActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BuddyMSG\Activities\HomeActivity.cs">
     <Files>
-      <File FileName="BuddyMSG\MainActivity.cs" Line="31" Column="15" />
-      <File FileName="BuddyMSG\LoginActivity.cs" Line="1" Column="1" />
-      <File FileName="BuddyMSG\CreateAccountActivity.cs" Line="1" Column="1" />
-      <File FileName="BuddyMSG\Core\LoginViewModel.cs" Line="21" Column="1" />
-      <File FileName="BuddyMSG\Core\IWebService.cs" Line="8" Column="50" />
-      <File FileName="BuddyMSG\HomeActivity.cs" Line="24" Column="109" />
-      <File FileName="BuddyMSG\HomeMessageAdapter.cs" Line="51" Column="92" />
+      <File FileName="BuddyMSG\Activities\HomeActivity.cs" Line="50" Column="1" />
+      <File FileName="BuddyMSG\Adapters\HomeMessageAdapter.cs" Line="55" Column="9" />
+      <File FileName="BuddyMSG\Core\LoginViewModel.cs" Line="18" Column="29" />
+      <File FileName="BuddyMSG\Activities\ComposeMessageActivity.cs" Line="43" Column="1" />
+      <File FileName="BuddyMSG\Core\IWebService.cs" Line="6" Column="26" />
+      <File FileName="BuddyMSG\Activities\LoginActivity.cs" Line="31" Column="1" />
+      <File FileName="c:\Users\smari_000\Documents\GitHub\BuddyMSG\BuddyMSG\Activities\BaseActivity.cs" Line="41" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="BuddyMSG" expanded="True">
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Activities" expanded="True" />
+            <Node name="Adapters" expanded="True" />
+            <Node name="Core" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BuddyMSG MonoForAntroid.PreferredDevice="Nexus One" />
+  <MonoDevelop.Ide.ItemProperties.BuddyMSG MonoForAntroid.PreferredDevice="Nexus One" AndroidDeviceId-Debug="004a52aacd0ed7e2" />
 </Properties>

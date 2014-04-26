@@ -28,7 +28,6 @@ namespace BuddyMSG
                 try
                 {
                     await viewModel.Login(this, nameEditText.Text, passwordEditText.Text);
-                    //StartActivity(typeof());
                 }
                 catch (Exception exc)
                 {
@@ -37,6 +36,11 @@ namespace BuddyMSG
 
                     }).Create();
                     errorDialog.Show();
+                }
+                finally
+                {
+                    StartActivity(typeof(HomeActivity));
+                    Finish();
                 }
             };
         }

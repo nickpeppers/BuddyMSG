@@ -14,10 +14,11 @@ namespace BuddyMSG
             IsBusy = true;
             try
             {
-                settings.User = await service.Login(username, password);
-				settings.IsLoggedIn = true;
-                settings.Save();
-                User = settings.User;
+                var user = await service.Login(username, password);
+                User = user;
+                //settings.User = User;
+                //settings.IsLoggedIn = true;
+                //settings.Save();
             }
             catch(Exception exc)
             {

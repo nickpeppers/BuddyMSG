@@ -9,19 +9,22 @@
         android:id="@+id/NameEditText"
         android:hint="Name"
         android:padding="3dp"
-        android:layout_margin="3dp"
         android:singleLine="true"
-        android:inputType="textEmailAddress" />
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/PasswordEditText"
         android:padding="3dp"
-        android:text="Password"
         android:password="true"
         android:inputType="textPassword"
         android:singleLine="true"
-        android:layout_margin="3dp" />
+        android:layout_margin="3dp"
+        android:hint="Password" />
     <Button
         android:text="Login"
         android:layout_width="match_parent"

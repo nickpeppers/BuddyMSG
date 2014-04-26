@@ -36,13 +36,12 @@ namespace BuddyMSG
                         emptyDialog.Show();
                         return;
                     }
-
-                    var sendToUser = viewModel.User.FindUser(toEditText.Text).Result;
+                    var sendToUser = await viewModel.User.FindUser(toEditText.Text);
                     if(sendToUser != null)
                     {
                         viewModel.IsBusy = true;
 
-                        await Buddy.MessagesTaskWrappers.SendAsync(viewModel.User.Messages, sendToUser, messageEditText.Text, viewModel.User.ApplicationTag);
+                        await Buddy.MessagesTaskWrappers.SendAsync(viewModel.User.Messages, sendToUser, messageEditText.Text);
                     }
                     else
                     {

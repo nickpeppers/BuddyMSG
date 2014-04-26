@@ -24,7 +24,10 @@ namespace BuddyMSG
             UpdateMessages();
 
             var listView = FindViewById<ListView>(Resource.Id.HomeMessagesListView);
-            listView.Adapter = new HomeMessageAdapter(this, _messages.ToList<Buddy.Message>(), viewModel.User);
+            if (_messages != null)
+            {
+                listView.Adapter = new HomeMessageAdapter(this, _messages.ToList<Buddy.Message>(), viewModel.User);
+            }
 
             var composeMessageButton = FindViewById<Button>(Resource.Id.HomeComposeButton);
             composeMessageButton.Click += (sender, e) => 
